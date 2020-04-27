@@ -1,0 +1,211 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eeeeee;
+  color: #333333;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#header-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.price-header {
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+.price-details {
+  padding-bottom: 10px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px 10px;
+  background-color: #dddddd;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px;
+}
+
+#footer-text {
+  padding-left: 30px;
+}
+
+@media (max-width: 420px) {
+  #header {
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+  }
+
+  #nav-links {
+    margin: 5px;
+    padding: 0px;
+  }
+
+  li {
+    padding: 5px;
+  }
+
+  #form-content {
+    text-align: center;
+  }
+
+  .form-div {
+    margin: 10px 0px;
+  }
+
+  #email {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+  }
+
+  .submit {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    background-color: #f1c40f;
+    color: #333333;
+  }
+
+  #features {
+    padding: 5px;
+  }
+
+  .features-heading {
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+  }
+
+  .features-matter {
+    margin-top: 2px;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  #howitworks {
+    padding: 20px 0px;
+  }
+
+  #pricing {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-card {
+    border: 2px solid #333333;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 421px) {
+  #header {
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+  }
+
+  #logo {
+    width: 30%;
+  }
+
+  #nav-links {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  li {
+    font-size: 1.1em;
+    padding: 0px 30px;
+  }
+
+  #form-content {
+    text-align: center;
+  }
+
+  .form-div {
+    margin: 10px 0px;
+  }
+
+  #email {
+    font-size: 15px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+  }
+
+  .submit {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    background-color: #f1c40f;
+    color: #333333;
+  }
+
+  #features {
+    margin-top: 50px;
+    padding: 5px 0px;
+  }
+
+  .features-heading {
+    margin: 20px 10vw 0px 10vw;
+  }
+
+  .features-matter {
+    margin: 10px 10vw;
+  }
+
+  #howitworks {
+    margin: 10px 10vw;
+    padding: 20px 0px;
+  }
+
+  #pricing {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .price-card {
+    width: 25%;
+    border: 2px solid #333333;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+  }
+}
